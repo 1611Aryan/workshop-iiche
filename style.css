@@ -10,8 +10,8 @@ body {
 
 .box,
 .parent {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background: red;
   position: relative;
 }
