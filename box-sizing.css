@@ -1,0 +1,13 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: red;
+  border: 10px solid green;
+
+  box-sizing: border-box;
+}
+
+.box:nth-of-type(2) {
+  background: yellow;
+  border: none;
+}

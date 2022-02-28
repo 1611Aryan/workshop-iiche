@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 2000px;
+  background-image: url("https://images.unsplash.com/photo-1618042164219-62c820f10723?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dW5zcGFsc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+
+.box,
+.parent {
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: relative;
+}
+
+.parent .child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 100px;
+  height: 100px;
+  background: yellow;
+}
+
+.parent .child .child2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 50px;
+  height: 50px;
+  background: blue;
+}
+
+.static {
+  position: static;
+  top: 25px;
+  left: 25px;
+}
+
+.relative {
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+.fixed {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+}
+
+.sticky {
+  position: sticky;
+
+  top: 0px;
+}
